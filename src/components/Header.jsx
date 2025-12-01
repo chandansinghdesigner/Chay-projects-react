@@ -20,7 +20,15 @@ export default function Header({ dark, setDark, showToast }) {
             onClick={() => { setDark(d => !d); showToast(dark ? 'Light mode' : 'Dark mode') }}
             aria-label="Toggle theme"
             >{dark ? 'Light' : 'Dark'}</button>
-            <a className="small" href="#" onClick={(e)=>{e.preventDefault(); showToast('No external link')}}>About</a>
+                <a 
+      className="small"
+      href="https://chandansinghdesigner.github.io/chandan-singh/"
+      target="_blank"
+      rel="noopener noreferrer"
+      onClick={() => showToast("Opening Portfolio...")}
+    >
+      About
+    </a>
             </div>
         </header>
 

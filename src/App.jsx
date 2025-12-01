@@ -32,7 +32,7 @@ export default function App() {
       <div className="app-wrap">
         <div className="card" role="main">
 
-          <Header dark={dark} setDark={setDark} showToast={showToast} />
+          <Header dark={dark} setDark={setDark} showToast={showToast}  />
 
           <TextArea text={text} setText={setText} />
           <Controls text={text} setText={setText} showToast={showToast} />
