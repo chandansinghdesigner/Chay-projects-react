@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
+  base: "/Chay-projects-react/",
   plugins: [react()],
-   base: "/Chay-projects-react/",  // <-- repo name
 })
-
