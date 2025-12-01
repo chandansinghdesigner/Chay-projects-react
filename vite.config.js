@@ -5,3 +5,5 @@ export default defineConfig({
   base: "/Chay-projects-react/",
   plugins: [react()],
 });
+
+
