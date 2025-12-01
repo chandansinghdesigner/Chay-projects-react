@@ -77,22 +77,22 @@ export default function Controls({ text, setText, showToast }) {
   return (
     <div style={{ marginTop: "14px" }}>
       <div style={{ display: "flex", gap: "10px", flexWrap: "wrap" }}>
-        <button onClick={handleUpper} disabled={!text}>
+        <button className="btn" onClick={handleUpper} disabled={!text}>
           UPPER
         </button>
-        <button onClick={handleLower} disabled={!text}>
+        <button className="btn" onClick={handleLower} disabled={!text}>
           lower
         </button>
-        <button onClick={handleReverse} disabled={!text}>
+        <button className="btn" onClick={handleReverse} disabled={!text}>
           Reverse
         </button>
-        <button onClick={handleTrim} disabled={!text}>
+        <button className="btn" onClick={handleTrim} disabled={!text}>
           Trim
         </button>
-        <button onClick={handleClear} disabled={!text}>
+        <button className="btn" onClick={handleClear} disabled={!text}>
           Clear
         </button>
-        <button onClick={handleCopy} disabled={!text}>
+        <button className="btn" onClick={handleCopy} disabled={!text}>
           Copy
         </button>
       </div>
